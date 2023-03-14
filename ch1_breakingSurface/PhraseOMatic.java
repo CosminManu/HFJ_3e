@@ -13,9 +13,9 @@ public class PhraseOMatic {
 	int threeLength = listThree.length;
 
 	Random random = new Random();
-	int rand1 = random .nextInt(oneLength);		//return a random number between [0, listOne.length)
-	int rand2 = random .nextInt(twoLength);
-	int rand3 = random .nextInt(threeLength);
+	int rand1 = random.nextInt(oneLength);		//return a random number between [0, listOne.length)
+	int rand2 = random.nextInt(twoLength);
+	int rand3 = random.nextInt(threeLength);
 
 	String phrase = listOne[rand1] + " " + listTwo[rand2] + " " + listThree[rand3];
 
